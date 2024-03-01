@@ -1,0 +1,49 @@
+{
+    "airlines":[
+        {
+            "Airline_name":"indigo",
+            "Airline_logo":"https://i.postimg.cc/c4b4dszw/Indi-Go-Logo-Vector-730x730.jpg",
+            "From_location":"kochi",
+            "To_Location":"dubai",
+            "price":1200,
+            "total_duration":1,
+           "Departure_time":"10:00 am",
+            "Arrival_time":"11:00 am"
+        },
+        {
+            
+                "Airline_name":"reliance",
+                "Airline_logo":"https://i.postimg.cc/c4b4dszw/Indi-Go-Logo-Vector-730x730.jpg",
+                "From_location":"kochi",
+                "To_Location":"banglore",
+                "price":2200,
+                "total_duration":2,
+               "Departure_time":"10:00 am",
+                "Arrival_time":"11:00 am"
+            
+        },
+        {
+            
+                "Airline_name":"indigo",
+                "Airline_logo":"https://i.postimg.cc/c4b4dszw/Indi-Go-Logo-Vector-730x730.jpg",
+                "From_location":"kochi",
+                "To_Location":"banglore",
+                "price":3200,
+                "total_duration":1,
+               "Departure_time":"10:00 am",
+                "Arrival_time":"11:00 am"
+            },
+            {
+                "Airline_name":"indigo",
+                "Airline_logo":"https://i.postimg.cc/c4b4dszw/Indi-Go-Logo-Vector-730x730.jpg",
+                "From_location":"kochi",
+                "To_Location":"banglore",
+                "price":5000,
+                "total_duration":1,
+               "Departure_time":"10:00 am",
+                "Arrival_time":"11:00 am"
+
+            }
+        
+    ]
+}
