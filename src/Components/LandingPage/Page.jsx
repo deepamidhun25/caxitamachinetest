@@ -42,10 +42,10 @@ if(filterData.length>0)
             try {
                 const response = await axios.get('../../db.json');
                 console.log(response.data);
-                if(response.status===0)
-               { setAirlineData(response.data.airlines)
             
-            }
+                setAirlineData(response.data.airlines)
+            
+            
 
             } catch (error) {
 
