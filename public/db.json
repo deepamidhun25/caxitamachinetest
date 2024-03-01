@@ -43,7 +43,19 @@
                "Departure_time":"10:00 am",
                 "Arrival_time":"11:00 am"
 
+            },
+            {
+                "Airline_name":"AirIndia",
+                "Airline_logo":"https://i.postimg.cc/65H3RC60/airindia.jpg",
+                "From_location":"kochi",
+                "To_Location":"kuwait",
+                "price":15000,
+                "total_duration":4,
+               "Departure_time":"15:00 am",
+                "Arrival_time":"19:00 am"
+
             }
+        
         
     ]
 }

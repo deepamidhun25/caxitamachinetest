@@ -26,9 +26,12 @@ function Page() {
             .filter((item) => item.From_location.toLowerCase() === (departure.toLowerCase())
                 && item.To_Location.toLowerCase() === (arrival.toLowerCase()))
 
-
-        setfilter(filterData);
-        setdisplayPage(prevStage => !prevStage)
+if(filterData.length>0)
+       { setfilter(filterData);
+        setdisplayPage(prevStage => !prevStage)}
+        else{
+            setdisplayPage(false) 
+        }
     }
     console.log(filter);
 
@@ -39,7 +42,11 @@ function Page() {
             try {
                 const response = await axios.get('../../db.json');
                 console.log(response.data);
-                setAirlineData(response.data.airlines)
+                if(response.status===0)
+               { setAirlineData(response.data.airlines)
+            
+            }
+
             } catch (error) {
 
                 console.error('Error fetching data:', error);
